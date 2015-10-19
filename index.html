@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+		<script>
+   	var socket = io();
+		</script>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id='title'>Tic Tac Toe !</div>
+		<div class='info'>
+			Not connected Yet !
+		</div>
+		<div class='game'>
+			<div class='row'>
+				<div id='a1' class='cell'></div>
+				<div id='b1' class='cell'></div>
+				<div id='c1' class='cell'></div>
+			</div>
+			<div class='row'>
+				<div id='a2' class='cell'></div>
+				<div id='b2' class='cell'></div>
+				<div id='c2' class='cell'></div>
+			</div>
+			<div class='row'>
+				<div id='a3' class='cell'></div>
+				<div id='b3' class='cell'></div>
+				<div id='c3' class='cell'></div>
+			</div>
+		</div>
+		<center><button class='reset' >Reset</button></center>
+	</body>
+</html>

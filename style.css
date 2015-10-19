@@ -1,0 +1,56 @@
+#title{
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+	margin: 0px;
+}
+@media only screen and (min-device-width: 600px){
+	.game{
+	border: 0px ;
+	border-spacing: 0px ;
+	margin: auto;
+	max-width: 50%;
+	max-height: 80%;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone, Android rules here */
+	.game{
+	border: 0px ;
+	border-spacing: 0px ;
+	margin: auto;
+	max-width: 70%;
+	max-height: auto;
+	}
+}
+
+.cell{
+	position: relative;
+	overflow: hidden;
+	border: 1px solid black;
+  display: inline-block;
+	height: 25%;
+	width: 30%;
+}
+.row{
+}
+.info{
+	position:relative;
+	overflow: hidden;
+	display: inline-block;
+	font-size: 20px;
+	max-width: 20%;
+	float:left;
+}
+button{
+	width: 8%;
+	height: 5%;
+}
+#symbol{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	vertical-align: center;
+}
